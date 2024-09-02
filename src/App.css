@@ -1,0 +1,98 @@
+.container {
+  background-color: #8f65fc;
+  padding: 28px;
+  margin: 100px auto;
+  width: 550px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.input-section {
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.input-section input {
+  padding: 12px 35px 12px 16px;
+  width: 84%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+}
+
+.input-section button {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1b1a44;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.input-section button:hover {
+  background-color: #353384;
+}
+
+.task-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.task {
+  background-color: #1b1a44;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.task p {
+  width: 85%;
+}
+
+.task-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.task-icons i {
+  cursor: pointer;
+}
+
+.nothing-here-yet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 14px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.empty-icon {
+  width: 250px;
+}
